@@ -46,7 +46,7 @@ function pauseSong() {
 }
 
 function prevSong(){
-    songIndex--
+    songIndex --
 
     if( song < 0 ) {
         songIndex = songs.length - 1 
