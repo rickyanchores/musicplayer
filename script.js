@@ -28,6 +28,7 @@ function loadSong(song){
     cover.src = `images/${song}.jpeg`
 }
 
+// Functions 
 
 function playSong(){
     musicContainer.classList.add('play');
